@@ -8,32 +8,14 @@
       }
     </style>
   </head>
-  <body  style="color: white; background-color: rgb(117, 46, 46); font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">
-<center><img src="forTest.jpg" alt="Всё равно иди нахуй"><br><img src="forTest.png" alt=""><br><img src="forTest2.png" alt=""></center>
-<script>
-    alert('Николай, вас приветствует гей клуб, добро пожаловать')
-    alert('Ответьте на несколько вопросов')
-
-let dick = prompt('Сколько у вас см член?');
-if (dick === Number){
-  alert(`Это значит у вас в жопе поместится член размером ${dick*2} см, круто!`);
+  <body>
+    <script>
+      let dick = prompt('Любое число');
+if (typeof +dick === "number"){
+  alert(`Значение ${dick*2}`);
     } else {
-      alert('Сэр, вы ввели неуместное значение, введите число');
-      let dick = prompt('Сколько у вас см член?');
-if (dick === Number){
-  alert(`Это значит у вас в жопе поместится член размером ${dick*2} см, круто!`);
-    } else {
-      alert('Ты блять читать умеешь? Написано же число ввести! Иди нахуй кароче')
-    }
-    }
-
-
-let isBoss = confirm("Вам уже не терпится посмотреть наш каталог? ('Ok'- yes; 'Отмена'- no)");
-if (isBoss === false) {
-  alert('Ах ты маленький врунишка, а ну ка тащи сюда свою задницу!')
-} else {
-  alert  ('То то же, а теперь выбирайте!')
-} 
+      alert('Это не число');
+     }
 
    </script>
   </body>
